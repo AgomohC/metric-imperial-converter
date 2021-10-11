@@ -9,7 +9,7 @@ const converterRouter = require("./routes/converterRoutes");
 
 app.use("/api/convert", converterRouter);
 app.use((req, res) => {
-  res.send("<h3>route does not exist</h3>");
+  res.status(404).send("<h3>route does not exist</h3>");
 });
 
 const port = process.env.PORT || 8080;
