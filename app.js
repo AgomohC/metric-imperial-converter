@@ -1,0 +1,25 @@
+const express = require("express");
+const app = express();
+require("dotenv").config;
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(express.static("./public"));
+const converterRouter = require("./routes/converterRoutes");
+
+app.use("/api/convert", converterRouter);
+app.use((req, res) => {
+  res.send("<h3>route does not exist</h3>");
+});
+
+const port = process.env.PORT || 8080;
+const start = () => {
+  try {
+    app.listen(port, () => {
+      console.log(`app is listening on port ${port}...`);
+    });
+  } catch (err) {
+    console.log(err);
+  }
+};
+start();

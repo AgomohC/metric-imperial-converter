@@ -1,17 +1,21 @@
 {
   "name": "metric-imperial-converter",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A microservice which converts metric units to imperial ones and vice versa built with fcc's specifications ",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AgomohC/metric-imperial-converter.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "express",
+    "cors"
+  ],
+  "author": "Chinaemerem Agomoh",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AgomohC/metric-imperial-converter/issues"
@@ -21,5 +25,8 @@
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
   }
 }
