@@ -1,5 +1,8 @@
 const converterHandler = (req, res) => {
   let { input } = req.body;
+  if (!input) {
+    return res.status(400).json({ msg: "required input is missing" });
+  }
   input = input.toLowerCase();
 
   //  result object

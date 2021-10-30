@@ -1,7 +1,7 @@
 {
   "name": "metric-imperial-converter",
   "version": "1.0.0",
-  "description": "A microservice which converts metric units to imperial ones and vice versa built with fcc's specifications ",
+  "description": "A fullstack app that converts metric units to imperial ones and vice versa",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
