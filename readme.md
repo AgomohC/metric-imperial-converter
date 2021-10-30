@@ -1,6 +1,6 @@
 # Metric Imperial Converter
 
-[femto-metric-imperial-converter](#) is a simple Full-Stack app that converts metric units to imperial units and vice versa. This project idea was gotten from [freeCodeCamp](#).
+[femto-metric-imperial-converter](https://femto-metric-imperial.herokuapp.com/) is a simple Full-Stack app that converts metric units to imperial units and vice versa. This project idea was gotten from [freeCodeCamp](https://www.freecodecamp.org/learn/quality-assurance/quality-assurance-projects/metric-imperial-converter).
 
 ---
 
@@ -8,7 +8,7 @@
 
 There is only one resource in this app
 
-- Convert <#/convert>
+- Convert <https://femto-metric-imperial.herokuapp.com/convert>
 
 ### Convert
 
