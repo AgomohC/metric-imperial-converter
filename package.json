@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/AgomohC/metric-imperial-converter/issues"
   },
-  "homepage": "https://femto-metric-imperial.herokuapp.com/",
+  "homepage": "https://femto-metric-converter.glitch.me/",
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
